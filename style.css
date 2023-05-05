@@ -48,3 +48,15 @@ background-color:black;
     display:flex;
     align-items:center;
 }
+
+
+
+.hero
+{
+    background-image: url('the conjuring background.jpg');
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    padding:20px;
+    margin:0px;
+}
