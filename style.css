@@ -11,8 +11,18 @@ align-items:center;
 padding:10px;
 padding-left:40px;
 padding-right:40px;
-background-color:black;
+position:fixed;
+top:0;
+width:93%;
+background-color:rgba(0, 0, 0, 0);
+transition:background-color 0.5s ease-in-out;
 }
+header.sticky
+{
+    background-color:rgba(105, 28, 28, 0.8);
+}
+
+
 
 .logo
 {
@@ -64,6 +74,14 @@ background-color:black;
     display:flex;
     flex-direction:column;
     justify-content: center;
+    
 
+}
+
+.slider
+{
+    background-color:chocolate;
+    margin:0px;
+    padding:20px;
 }
 
