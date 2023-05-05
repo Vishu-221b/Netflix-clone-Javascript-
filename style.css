@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header
+{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+background-color:black;
+}
+
+.logo
+{
+    width:150px;
+    
+    
+}
+
+.logo img{
+    width:100px;
+}
+
+.menu
+{
+    flex-grow:1;
+}
+
+.menu ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+    padding:0;
+    margin:0;
+
+}
+
+.menu li a{
+    color:white;
+    text-decoration:none;
+}
+
+.search-bar
+{
+    display:flex;
+    align-items:center;
+}
