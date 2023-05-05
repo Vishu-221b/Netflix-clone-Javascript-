@@ -1,6 +1,12 @@
-body{
-    margin:0;
+font-family: 'Poppins', sans-serif;
+
+html{
     padding:0;
+    margin:0;;
+}
+body{
+    margin:0px;
+    padding:0px;
 }
 
 header
@@ -14,7 +20,7 @@ padding-right:40px;
 position:fixed;
 top:0;
 width:93%;
-background-color:rgba(117, 117, 117, 0.127);;
+background-color:rgba(0, 0, 0, 0.389);;
 transition:background-color 0.5s ease-in-out;
 }
 header.fixed
@@ -70,6 +76,8 @@ header.fixed
     background-position: center;
     height:500px;
     padding:20px;
+    padding-left:40px;
+    padding-right:40px;
     margin:0px;
     display:flex;
     flex-direction:column;
@@ -78,10 +86,64 @@ header.fixed
 
 }
 
+
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:58px;
+    line-height: 1em;
+    margin-bottom:5px;
+}
+
+
+.hero p{
+    font-family:'Poppins', sans-serif;
+    font-size:18px;
+    line-height: 1em;
+    width:42%;
+}
+
+
+
 .slider
 {
     background-color:chocolate;
     margin:0px;
     padding:20px;
+    min-height:400px;
 }
 
+
+footer
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color:black;
+    padding-left:40px;
+    padding-right:40px;
+    
+}
+
+footer h5{
+    font-weight:200;
+    color:white;
+}
+
+.column
+{
+    padding: 10px;
+    background-color:black;
+}
+
+.social-media-icons
+{
+    margin-bottom:20px;
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
